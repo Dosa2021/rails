@@ -2,3 +2,9 @@ rails s
 
 Render
 https://dashboard.render.com/web/srv-cqjdotuehbks73ca39eg/logs
+
+------------------------------------------------------------------
+Scaffold
+
+rails generate scaffold User name:string email:string
+rails db:migrate
